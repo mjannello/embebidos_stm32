@@ -1,0 +1,10 @@
+00:48:44 **** Incremental Build of configuration Debug for project tp_final_embebidos ****
+make -j8 all 
+arm-none-eabi-size   tp_final_embebidos.elf 
+   text	   data	    bss	    dec	    hex	filename
+   7916	     20	   1652	   9588	   2574	tp_final_embebidos.elf
+Finished building: default.size.stdout
+ 
+
+00:48:44 Build Finished. 0 errors, 0 warnings. (took 547ms)
+
