@@ -162,8 +162,8 @@ int main(void)
 
 	  data_32 = receive_data();
 
-	  if(data_32 != 0){
-		  HAL_UART_Transmit_IT(&huart1, (uint8_t*)data_32, 4);
+	  if(data != 0){
+		  HAL_UART_Transmit_IT(&huart1, (uint8_t*)data, 4);
 		  HAL_Delay (250);
 	  }
 	  HAL_Delay (200);
